@@ -1,0 +1,175 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background: #0f172a;
+  /* Dark Blue Theme */
+  background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+  color: white;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 40px 20px;
+}
+
+.container {
+  width: 100%;
+  max-width: 450px;
+  text-align: center;
+}
+
+/* Profile Section */
+.profile {
+  margin-bottom: 40px;
+}
+
+/*.avatar-container {
+  width: 110px;
+  height: 110px;
+  margin: 0 auto 15px;
+  border-radius: 50%;
+  padding: 5px;
+  background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
+}*/
+
+.avatar {
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  background: white;
+  object-fit: cover;
+}
+
+h1 {
+  font-size: 1.6rem;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+h2 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  font-family: Segoe UI;
+  color: whitesmoke;
+}
+p {
+  font-size: 0.95rem;
+  color: #94a3b8;
+  line-height: 1.5;
+}
+
+/* Links Section */
+.links {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.link-card {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 16px 20px;
+  border-radius: 16px;
+  text-decoration: none;
+  color: white;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  transition: all 0.3s ease;
+}
+
+.link-card:hover {
+  background: rgba(255, 255, 255, 0.15);
+  transform: translateY(-4px);
+  border-color: rgba(255, 255, 255, 0.3);
+}
+
+.link-card i {
+  font-size: 1.4rem;
+  width: 30px;
+}
+
+/* Icon Colors */
+.yt-icon {
+  color: #FF0000;
+}
+.insta-icon {
+  color: #E1306C;
+}
+.fb-icon {
+  color: #1877F2;
+}
+.wa-icon {
+  color: #25D366
+}
+.fa-globe {
+  color: #1877F2;
+}
+
+#share-btn {
+  margin-bottom: 20px;
+}
+span {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+/* Support Button Special Styling */
+.support-btn {
+  background: rgba(255, 107, 107, 0.1);
+  border: 1px solid rgba(255, 107, 107, 0.3);
+}
+
+.support-btn i {
+  color: #ff6b6b;
+  animation: heartBeat 1.5s infinite;
+}
+
+@keyframes heartBeat {
+  0% {
+    transform: scale(1);
+  }
+  15% {
+    transform: scale(1.2);
+  }
+  30% {
+    transform: scale(1);
+  }
+  45% {
+    transform: scale(1.15);
+  }
+  60% {
+    transform: scale(1);
+  }
+}
+
+/* Footer Styling */
+footer {
+  margin-top: 40px;
+  padding: 20px;
+}
+
+hr {
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+footer p {
+  margin-top: 20px;
+  font-size: 0.85rem;
+  color: #94a3b8;
+}
+
+footer b {
+  color: #00d2ff;
+}
+
+
+footer {
+  margin-top: 50px;
+  font-size: 0.8rem;
+  color: #64748b;
+}
